@@ -1,0 +1,209 @@
+body{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navy{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+.header{
+    flex-direction: column;
+    display: flex;
+    color: #F9FAF8;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 12%;
+    /* margin-left:12%; */
+}
+
+.headerlogo{
+    font-weight:bold;
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-wrap: nowrap;
+    /* padding-right:2%; */
+    gap: 8px;
+}
+
+li{
+    flex: 1 0 0;
+    padding: 2%;
+    margin: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.headerimg{
+    max-width: 250px;
+}
+
+img{
+    max-width: 150px;
+}
+
+
+.two{
+    display: flex;
+    margin: 0px 12%;
+    padding:3% 0;
+}
+
+.leftcol{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.rightcol{
+    display:flex;
+    flex: 1;
+    justify-content: right;
+}
+
+.hook{
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+.intro{
+    line-height: 150%;
+    font-size: 16px;
+    color: #E5E7EB
+}
+
+.buttoncontainer{
+    display: flex;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 10%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.moreinfo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10% 1%;
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icons{
+    display:flex;
+    padding: 4% 15%;
+    padding-bottom: 0;
+    gap: 3%;
+}
+
+.infocontainers{
+    flex: 1 0 0;
+}
+
+.icontext{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.quotecont{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    text-align: left;
+    font-size: 36px;
+    font-style:italic;
+    padding: 7% 15%;
+}
+
+.quote{
+    font-weight:500;
+    margin-bottom:1%;
+    padding-left: 10%;
+}
+
+.qauthor{
+    align-self: flex-end;
+    padding-right:5%;
+    font-size:16px;
+    font-weight:bold;
+    font-style:normal;
+}
+
+.signup{
+    display:flex;
+    background-color: white;
+    padding: 5% 10%;
+    color:white;
+}
+
+.bannertext{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.bannercontainer{
+    background-color:#3882F6;
+    display:flex;
+    padding: 3% 10%;
+    gap: 15%;
+    border-radius: 16px;
+}
+
+.blurb{
+    padding-top: 2.5%;
+    font-size:16px;
+    font-weight: normal;
+}
+
+.bannerbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.secondbutton{
+    border: 1px solid white;
+    border-radius: 4px;
+    text-wrap: nowrap;
+    align-self: center;
+    font-weight:bold;
+    padding: 0 50px;
+}
+
+.footer{
+    display: flex;
+    flex: 1 1 0;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    justify-content: center;
+    gap: .8%;
+}
